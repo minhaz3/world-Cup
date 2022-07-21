@@ -449,3 +449,239 @@ hr {
 /* ---------------------------
  Media queries for mobile end
  -------------------------- */
+/* --------------------------
+ Media queries for tablet 
+ -----------------------------*/
+
+@media screen and (min-width:689px) and (max-width:992px) {
+
+    /* -----------------
+Top Banner Start
+-------------------- */
+    .container {
+        display: flex;
+        justify-content: center;
+        width: 1321px;
+        height: 646px;
+        background-color: #161616;
+        border-radius: 30px;
+        margin-bottom: 130px;
+
+    }
+
+    .top-banner {
+        display: flex;
+    }
+
+    .top-banner-heading {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 700;
+        font-size: 70px;
+        color: #FFFFFF;
+    }
+
+    .top-banner-paragraph {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+    }
+
+    .anchor-top-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 16px 25px;
+        gap: 15px;
+        width: 187px;
+        height: 36px;
+        background-color: #DD0000;
+        border-radius: 5px;
+
+    }
+
+    .anchor {
+        text-decoration: none;
+        color: #FFFFFF;
+        width: 103px;
+        height: 23px;
+        font-weight: 400;
+        font-size: 20px;
+    }
+
+    .fa-angle-right.icon {
+        color: #FFFFFF;
+        width: 24px;
+        height: 12px;
+
+    }
+
+    .top-banner-img {
+        padding-top: 83px;
+        width: 581px;
+        height: 563px;
+    }
+
+    /* ------------
+Top Banner End
+--------------- */
+    /* -----------------
+Last Banner Start
+-------------------- */
+    .anchor-box a {
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 252px;
+        height: 64px;
+        margin: 23px;
+    }
+
+    .anchor-tag {
+        color: #161616;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        width: 252px;
+        height: 64px;
+        background: #FFFFFF;
+        border-radius: 10px;
+    }
+
+    .anchor-tag.red {
+        color: #FFFFFF;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        width: 252px;
+        height: 64px;
+        background: #DD0000;
+        border-radius: 10px;
+
+    }
+
+    /*---------------
+   Grid Start
+   -------------- */
+    .last-banner {
+        width: auto;
+        height: 646px;
+        display: flex;
+        margin-bottom: 130px
+    }
+
+    .grid-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-evenly;
+        gap: 24px;
+    }
+
+    .grid-items {
+        width: 312px;
+        height: 362px;
+        box-shadow: 1px 1px rgb(159, 159, 159);
+        border-radius: 10px;
+    }
+
+    .grid-img {
+        width: 312px;
+        height: 175px;
+        border-radius: 10px 10px 0px 0px;
+        margin-bottom: 10px;
+    }
+
+    .grid-blog {
+        padding-left: 10px;
+    }
+
+    .grid-h3-heading {
+        color: #161616;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+
+        border: 1px solid #161616;
+        width: 100px;
+        height: 32px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .grid-h4-heading {
+        color: #161616;
+        width: 272px;
+        height: 54px;
+        font-weight: 600;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .grid-items-icon {
+        width: 143px;
+        height: 26px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    /* ---------------------
+Grid and last banner end
+------------------------ */
+
+    /*--------------
+ Footer start
+ ------------- */
+    .footer-box {
+        width: 105%;
+        height: 444px;
+        background-color: #161616;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-h2 {
+        color: #FFFFFF;
+        width: 95px;
+        height: 60px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 40px;
+
+    }
+
+    hr {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        width: 100%;
+    }
+
+    .fotter-first-div {
+        font-weight: 500;
+        font-size: 16px;
+        color: #B9B9B9;
+        display: flex;
+        width: 898px;
+        height: 24px;
+        justify-content: space-between;
+    }
+
+    .links {
+        color: #FFFFFF;
+        font-size: 40px;
+        display: flex;
+        width: 400px;
+        height: 50px;
+        justify-content: space-between;
+        margin-top: 60px;
+        margin-bottom: 10px;
+    }
+
+    /*--------------
+Footer end 
+--------------*/
+
+}
